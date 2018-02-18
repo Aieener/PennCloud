@@ -1,9 +1,10 @@
 # PennCloud
 #### Colaborators: Thomas Greening, Li Huang, Yeru Liu, Yezheng Li
-A distributed Cloud platform that supports cloud drive service and email service
+A distributed Cloud platform that supports cloud drive service and email service. Users are able to sign up, login, store files and sending emails to the ourside world in this web app. 
 
 ### Dependencies
-`Google Protocol Buffers`, `gRPC`, `Boost`, `Bootstrap`, `json.hpp`.
+`Google Protocol Buffers`, `gRPC`, `Boost`, `Bootstrap`, `json.hpp`. 
+
 ### Snapshot of the App
 ![Penn2](https://github.com/Aieener/PennCloud/blob/master/penn2.png)
 ![Penn6](https://github.com/Aieener/PennCloud/blob/master/penn6.png)
@@ -15,7 +16,7 @@ A distributed Cloud platform that supports cloud drive service and email service
 
 
 ### A Brief instruction about how to run the code:
-To keep things simple, this guide only include 2 backend server and 1 frontend server, to test on more backend and frontend servers, see details in README.txt at `/FE_server`, `/BE_server` and `/Admin_Console folders`.
+To keep things simple, this guide only include 2 backend server and 2 frontend server, to test on more backend and frontend servers, see details in README.txt at `/FE_server`, `/BE_server` and `/Admin_Console folders`.
 * Run the BackEnd and the master servers (2 BE servers here):
   * Go to BE_server/ and run:
   ```
