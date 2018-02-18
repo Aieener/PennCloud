@@ -54,4 +54,6 @@ $ ./SMTP_external_to_bigtables
   *Admin console: localhost:7000/admin.html
 
 ### Source Code
-Since this is the course project for CIS505 at Upenn, **only binary files** are provided here. Please contact me if you have any question about the source code or detailed design of the project. Thanks very much for reading! ;)
+Since this is the course project for CIS505 at Upenn, **only binary files** are provided here. Please contact me if you have any question about the source code or detailed design of the project. 
+
+### Thanks!
