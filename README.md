@@ -4,6 +4,15 @@ A distributed Cloud platform that supports cloud drive service and email service
 
 ### Dependencies
 `Google Protocol Buffers`, `gRPC`, `Boost`, `Bootstrap`, `json.hpp`.
+### Snapshot of the App
+![Penn2](https://github.com/Aieener/PennCloud/blob/master/penn2.png)
+![Penn6](https://github.com/Aieener/PennCloud/blob/master/penn6.png)
+![Penn3](https://github.com/Aieener/PennCloud/blob/master/penn3.png)
+![Penn4](https://github.com/Aieener/PennCloud/blob/master/penn4.png)
+![Penn8](https://github.com/Aieener/PennCloud/blob/master/penn8.png)
+![Penn5](https://github.com/Aieener/PennCloud/blob/master/penn5.png)
+![Penn7](https://github.com/Aieener/PennCloud/blob/master/penn7.png)
+
 
 ### A Brief instruction about how to run the code:
 To keep things simple, this guide only include 2 backend server and 1 frontend server, to test on more backend and frontend servers, see details in README.txt at `/FE_server`, `/BE_server` and `/Admin_Console folders`.
@@ -23,7 +32,8 @@ To keep things simple, this guide only include 2 backend server and 1 frontend s
 * Run the FrontEnd server and Load balancer: (1 FE in this example)
   * Go to FE_server/ and run:
   ```
-  $ ./feserver
+  $ ./feserver -p 8888 -h 50070 -m localhost:50080
+  $ ./feserver -p 8889 -h 50071 -m localhost:50080
   ```
   * Go to Load_Balancer/ and run:
   ```
