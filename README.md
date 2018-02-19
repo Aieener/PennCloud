@@ -24,7 +24,7 @@ To keep things simple, this guide only include 2 backend server and 2 frontend s
   $ ./sample -a 0.0.0.0:50052 	
   $ ./master beServers.config
   ```
-  *To start over with nothing in the bigtable, one need to delete the existing folders corresponding to the previous BE
+  * To start over with nothing in the bigtable, one need to delete the existing folders corresponding to the previous BE
   servers, for the above example, we need to do: 
   ```
   $ rm -rf 0_0_0_0_50051 0_0_0_0_50052
