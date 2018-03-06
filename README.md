@@ -17,6 +17,9 @@ A distributed Cloud platform that supports cloud drive service and email service
 
 ### A Brief instruction about how to run the code:
 To keep things simple, this guide only include 2 backend server and 2 frontend server, to test on more backend and frontend servers, see details in README.txt at `/FE_server`, `/BE_server` and `/Admin_Console folders`.
+* Install dependencies: 
+  * Grpc: https://github.com/grpc/grpc/blob/master/INSTALL.md
+  * protocal buffer: https://github.com/google/protobuf/blob/master/src/README.md
 * Run the BackEnd and the master servers (2 BE servers here):
   * Go to BE_server/ and run:
   ```
